@@ -42,8 +42,8 @@ class CryptoCompadre_Bot:
     def bienvenida_a_usuario(self, message):
         markup = telebot.types.ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=False)
 
-        btn1 = telebot.types.KeyboardButton("🔥 /compadre")
-        btn2 = telebot.types.KeyboardButton("🏛️ /syp500")
+        btn1 = telebot.types.KeyboardButton("/compadre")
+        btn2 = telebot.types.KeyboardButton("/syp500")
 
         markup.row(btn1, btn2)
 
